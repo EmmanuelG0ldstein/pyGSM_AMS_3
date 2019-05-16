@@ -1,0 +1,15 @@
+#! /bin/sh
+
+$ADFBIN/ams << eor
+
+Task PESScan
+PESScan
+    ScanCoordinate
+        nPoints 10
+        Distance 9 3 3.667088466506466 3.667088466506466
+    End
+End
+
+Engine DFTB
+    ResourcesDir DFTB.org/matsci-0-3
+EndEngine

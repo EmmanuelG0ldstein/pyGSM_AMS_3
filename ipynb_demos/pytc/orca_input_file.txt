@@ -1,0 +1,14 @@
+#! B3LYP 6-31G(d) EnGrad SOSCF
+
+! RKS B3LYP SVP Opt TightSCF SmallPrint
+#
+#%scf
+#MaxIter 150
+#convergence medium
+#end
+#
+#
+#%pal
+#nproc 16
+#end
+#

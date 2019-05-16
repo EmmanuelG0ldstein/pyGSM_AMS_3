@@ -1,0 +1,19 @@
+from base_lot import *
+import numpy as np
+import os
+from units import *
+
+class AMS(Lot):
+    def run(self, geom, multiplicity)
+
+    tempfilename = 'tempAMSinp'
+    tempfile = open(tempfilename, 'w')
+    if self.lot_inp_file == False:
+
+    else:
+        with open(self.lot_inp_file) as lot_inp:
+            lot_inp_lines = lot_inp.readlines()
+        for line in lot_inp_lines:
+            tempfile.write(line)
+
+

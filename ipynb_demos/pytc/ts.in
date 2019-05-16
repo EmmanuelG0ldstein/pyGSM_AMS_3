@@ -1,0 +1,6 @@
+Task GeometryOptimization
+
+Engine DFTB
+    Model DFTB3
+    ResourcesDir DFTB.org/3ob-3-1
+EndEngine
